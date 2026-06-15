@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Menu | TFPL</title>
+    <link rel="stylesheet" href="GlobalCSS.css">
+    <link rel="stylesheet" href="Css/Index.css">
+    <!-- Linking Google Fonts For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Site navbar -->
+    <nav class="site-nav">
+        <button class="sidebar-toggle">
+                <span class="material-symbols-rounded"> menu </span>
+            </button>
+    </nav>
+
+    <div class="container">
+        <aside class="sidebar collapsed">
+            <!-- Sidebar header -->
+            <header class="sidebar-header">
+                <img src="Assets/phonkIcon.png" alt="TFPL" class="header-logo" />
+                <button class="sidebar-toggle">
+                    <span class="material-symbols-rounded"> chevron_left </span>
+                </button>
+            </header>
+    
+            <div class="sidebar-content">
+                <!-- Search form -->
+                <form action="#" class="search-form">
+                    <span class="material-symbols-rounded"> search </span>
+                    <input type="search" placeholder="Search..." required />
+                </form>
+    
+                <!-- Menu list -->
+                <ul class="menu-List">
+                    <li class="menu-item">
+                        <a href="Index.html" class="menu-link active">
+                            <span class="material-symbols-rounded"> list_alt </span>
+                            <span class="menu-label">Main List</span>
+                        </a>
+                    </li>
+                     <li class="menu-item">
+                        <a href="UnlimitedList.html" class="menu-link">
+                            <span class="material-symbols-rounded"> list_alt </span>
+                            <span class="menu-label">Unlimited List</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="UpcomingList.html" class="menu-link">
+                            <span class="material-symbols-rounded"> arrow_shape_up_stack </span>
+                            <span class="menu-label">Upcoming list</span>
+                        </a>
+                    </li>
+                     <li class="menu-item">
+                        <a href="StatsViewer.html" class="menu-link">
+                            <span class="material-symbols-rounded"> insert_chart </span>
+                            <span class="menu-label">Stats Viewer</span>
+                        </a>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span class="material-symbols-rounded"> rule </span>
+                            <span class="menu-label">Rules</span>
+                        </a>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span class="material-symbols-rounded"> account_circle </span>
+                            <span class="menu-label">Profile</span>
+                        </a>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span class="material-symbols-rounded"> settings </span>
+                            <span class="menu-label">Settings</span>
+                        </a>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span class="material-symbols-rounded"> info </span>
+                            <span class="menu-label">About</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Sidebar Footer -->
+            <div class="sidebar-footer">
+                <button class="theme-toggle">
+                    <div class="theme-label">
+                        <span class="theme-icon material-symbols-rounded"> dark_mode </span>
+                        <span class="theme-text">Dark Mode</span>
+                    </div>
+                    <div class="theme-toggle-track">
+                        <div class="theme-toggle-indicator"></div>
+                    </div>
+                </button>
+            </div>
+        </aside>
+       <div class="entirePage">
+           <div class="main-content">
+               <h1 class="page-title"><u>Main List</u></h1>
+               <p class="card">Welcome to the Main list, here you can see <b><u>most</b></u> the modes that people have beaten with the phonk list. The phonk playlist can be found in the rules or about section.</p>
+               <div class="pageContent">
+                   <div class="levelWidget hq720" style="border-radius: 50px;">
+                    <a href="#" class="levelWidget hq720a">
+                        <img src="Assets/hq720.png" alt loading="lazy" class="levelWidget hq720i" style="border-radius: 50px 50px 0px 0px;">
+                        <div class="levelInfo hq720" style="background-size: 100% 100%; background-position: center center; background-repeat: no-repeat;">
+                            <p class="top hq720">
+                                #1
+                            </p>
+                            <div class="info hq720">
+                                <p class="levelName hq720">Golden Freddy Hard Mode</p>
+                                <p class="creator hq720">From Sister Location Super Custom Night - 67420 points</p>
+                            </div>
+                        </div>
+                    </a>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

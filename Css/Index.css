@@ -1,0 +1,123 @@
+.container  {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.container .main-content {
+    flex: 1;
+    padding: 30px;
+    color: var(--color-text-primary);
+}
+
+.main-content {
+    width: auto;
+    max-width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .card {
+    text-align: center;
+}
+
+.entirePage .main-content {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    position: fixed;
+    top: 1vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.main-content .page-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.main-content .card {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: var(--color-bg-sidebar);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pageContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.levelWidget.hq720 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color:#695CFE;
+    text-decoration: none;
+    color: var(--color-text-primary);
+    overflow: hidden;
+    margin: 0px;
+    scale: 0.9;
+}
+
+.levelWidget.hq720 .levelWidget.hq720i {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+ 
+.levelWidget.hq720 .levelInfo.hq720 {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.levelWidget.hq720 .levelInfo.hq720 .top.hq720 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+
+.levelWidget.hq720 .levelInfo.hq720 .info.hq720 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.levelWidget.hq720 .levelInfo.hq720 .info.hq720 .levelName.hq720 {
+    font-weight: 500;
+    font-size: 23px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.levelWidget.hq720 .levelInfo.hq720 .info.hq720 .creator.hq720 {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.levelWidget {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.entirePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
